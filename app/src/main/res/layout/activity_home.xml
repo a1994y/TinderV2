@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/homeID"
+    android:background="#E91E63"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+
+
+        <Button
+            android:layout_width="225dp"
+            android:text="@string/start"
+            android:textColor="#ffff"
+            android:id="@+id/startBTN"
+            android:textSize="36dp"
+            android:layout_height="211dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_play_circle_outline_black_24dp"
+            android:gravity="center" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtPrivatePolice"
+        android:text="@string/priva_e_police"
+        android:paddingLeft="160dp"
+        android:textColor="#ffffff"
+        android:paddingBottom="20dp"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>
